@@ -1,0 +1,20 @@
+[
+  {
+    "_id": "227425c3-58f1-492a-ae24-f5b693747876",
+    "name": "aidm-environment.json",
+    "default": true,
+    "sortNum": 10000,
+    "created": "2022-09-19T08:10:07.072Z",
+    "modified": "2022-09-19T08:10:36.931Z",
+    "data": [
+      {
+        "name": "url",
+        "value": "http://178.128.216.177:8081/api/v1"
+      },
+      {
+        "name": "access_token",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiVXNlcklEIjoxLCJVc2VybmFtZSI6ImFybm9uLnJAdGdkZS5rbXV0bmIuYWMudGgiLCJHcm91cElEIjoxLCJPcmdhbml6YXRpb25JRCI6MSwiZXhwIjoxNjYzOTM2NzgyLCJpYXQiOjE2NjMwNzI3ODJ9.TsUUccPlnH4PbpkXAlBPOOWTRo3CK50GVCFlrZ8IxBo"
+      }
+    ]
+  }
+]
