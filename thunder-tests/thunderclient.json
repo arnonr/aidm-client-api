@@ -15348,30 +15348,6 @@
     }
   },
   {
-    "_id": "6c129715-50e5-4de7-8b2b-946bdb3befb3",
-    "colId": "5c5072e9-e740-4395-9d6f-7f693a729109",
-    "containerId": "21d1a545-0166-48c1-9457-8c9f8b6cc2e1",
-    "name": "report5 พ่อพันธุ์",
-    "url": "{{url}}/report/report5?ProvinceID=29",
-    "method": "GET",
-    "sortNum": 5725000,
-    "created": "2022-09-21T06:37:38.954Z",
-    "modified": "2022-09-21T09:28:45.362Z",
-    "headers": [],
-    "params": [
-      {
-        "name": "ProvinceID",
-        "value": "29",
-        "isPath": false
-      }
-    ],
-    "auth": {
-      "type": "bearer",
-      "bearer": "{{access_token}}"
-    },
-    "tests": []
-  },
-  {
     "_id": "51023c72-f7b1-4b2c-a9f3-e6ad3b9c6ced",
     "colId": "3b79f32b-fd98-4eeb-aa7c-db5336782ca8",
     "containerId": "44372308-2569-464b-ac22-e6fac678c24d",
