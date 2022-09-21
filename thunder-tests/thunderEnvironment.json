@@ -5,11 +5,29 @@
     "default": true,
     "sortNum": 10000,
     "created": "2022-09-19T08:10:07.072Z",
-    "modified": "2022-09-19T08:10:36.931Z",
+    "modified": "2022-09-21T11:55:45.543Z",
     "data": [
       {
         "name": "url",
         "value": "http://178.128.216.177:8081/api/v1"
+      },
+      {
+        "name": "access_token",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiVXNlcklEIjoxLCJVc2VybmFtZSI6ImFybm9uLnJAdGdkZS5rbXV0bmIuYWMudGgiLCJHcm91cElEIjoxLCJPcmdhbml6YXRpb25JRCI6MSwiZXhwIjoxNjYzOTM2NzgyLCJpYXQiOjE2NjMwNzI3ODJ9.TsUUccPlnH4PbpkXAlBPOOWTRo3CK50GVCFlrZ8IxBo"
+      }
+    ]
+  },
+  {
+    "_id": "5b153b71-3fb5-4596-8759-c68a28c53876",
+    "name": "aidm-environment-local.json",
+    "default": false,
+    "sortNum": 20000,
+    "created": "2022-09-21T11:56:34.041Z",
+    "modified": "2022-09-21T11:57:16.218Z",
+    "data": [
+      {
+        "name": "url",
+        "value": "http://localhost:8081/api/v1"
       },
       {
         "name": "access_token",
