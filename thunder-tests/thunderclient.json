@@ -8,16 +8,19 @@
     "method": "POST",
     "sortNum": 10000,
     "created": "2022-09-19T08:09:35.482Z",
-    "modified": "2022-09-19T08:09:35.482Z",
+    "modified": "2022-09-21T13:52:25.347Z",
     "headers": [],
+    "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n    \"accessToken\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiVXNlcklEIjoxLCJVc2VybmFtZSI6ImFybm9uLnJAdGdkZS5rbXV0bmIuYWMudGgiLCJleHAiOjE3MDIzODM1OTIsImlhdCI6MTY1NzAyMzU5Mn0.eQzxGUlB7jY_vPB4nToDsoc8--jBMGfVMNOnc559AKk\"\n}"
+      "raw": "{\n    \"accessToken\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiVXNlcklEIjoxLCJVc2VybmFtZSI6ImFybm9uLnJAdGdkZS5rbXV0bmIuYWMudGgiLCJleHAiOjE3MDIzODM1OTIsImlhdCI6MTY1NzAyMzU5Mn0.eQzxGUlB7jY_vPB4nToDsoc8--jBMGfVMNOnc559AKk\"\n}",
+      "form": []
     },
     "auth": {
       "type": "bearer",
       "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiVXNlcklEIjoxLCJVc2VybmFtZSI6ImFybm9uLnJAdGdkZS5rbXV0bmIuYWMudGgiLCJleHAiOjE3MDIzODM0NzYsImlhdCI6MTY1NzAyMzQ3Nn0.kjESmf2TM-d1MPb5pdspXX3scaRE4cJWE3bBDfzLgBY"
-    }
+    },
+    "tests": []
   },
   {
     "_id": "569f24b5-0fd9-4683-b78f-ada7d31cadaf",
@@ -15062,27 +15065,26 @@
     "method": "GET",
     "sortNum": 5710000,
     "created": "2022-09-19T08:09:36.054Z",
-    "modified": "2022-09-19T08:09:36.054Z",
+    "modified": "2022-09-21T14:08:25.910Z",
     "headers": [],
     "params": [
       {
         "name": "AnimalTypeID",
-        "value": "[17,18]"
+        "value": "[17,18]",
+        "isPath": false
       },
       {
         "name": "OrganizationZoneID",
         "value": "1",
-        "isDisabled": true
+        "isDisabled": true,
+        "isPath": false
       }
     ],
-    "body": {
-      "type": "json",
-      "raw": ""
-    },
     "auth": {
       "type": "bearer",
       "bearer": "{{access_token}}"
-    }
+    },
+    "tests": []
   },
   {
     "_id": "481e724c-00e5-4422-96ad-d45ae311f3ed",
@@ -15356,16 +15358,19 @@
     "method": "POST",
     "sortNum": 10000,
     "created": "2022-09-21T09:29:08.409Z",
-    "modified": "2022-09-21T09:29:08.409Z",
+    "modified": "2022-09-21T13:51:45.994Z",
     "headers": [],
+    "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n    \"accessToken\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiVXNlcklEIjoxLCJVc2VybmFtZSI6ImFybm9uLnJAdGdkZS5rbXV0bmIuYWMudGgiLCJleHAiOjE3MDIzODM1OTIsImlhdCI6MTY1NzAyMzU5Mn0.eQzxGUlB7jY_vPB4nToDsoc8--jBMGfVMNOnc559AKk\"\n}"
+      "raw": "{\n    \"accessToken\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiVXNlcklEIjoxLCJVc2VybmFtZSI6ImFybm9uLnJAdGdkZS5rbXV0bmIuYWMudGgiLCJleHAiOjE3MDIzODM1OTIsImlhdCI6MTY1NzAyMzU5Mn0.eQzxGUlB7jY_vPB4nToDsoc8--jBMGfVMNOnc559AKk\"\n}",
+      "form": []
     },
     "auth": {
       "type": "bearer",
       "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiVXNlcklEIjoxLCJVc2VybmFtZSI6ImFybm9uLnJAdGdkZS5rbXV0bmIuYWMudGgiLCJleHAiOjE3MDIzODM0NzYsImlhdCI6MTY1NzAyMzQ3Nn0.kjESmf2TM-d1MPb5pdspXX3scaRE4cJWE3bBDfzLgBY"
-    }
+    },
+    "tests": []
   },
   {
     "_id": "ac1a8cd5-c30d-4e16-a175-930220eb1325",
@@ -16112,27 +16117,25 @@
     "method": "POST",
     "sortNum": 350000,
     "created": "2022-09-21T09:29:08.443Z",
-    "modified": "2022-09-21T09:29:08.443Z",
+    "modified": "2022-09-21T16:32:26.197Z",
     "headers": [
-      {
-        "name": "",
-        "value": "ss",
-        "isDisabled": true
-      },
       {
         "name": "name",
         "value": "Progammer",
         "isDisabled": true
       }
     ],
+    "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n    \"AnimalStatusCode\": \"20\",\n    \"AnimalStatusName\": \"ลูกโค1\",\n    \"AnimalStatusStartAgeAmount\": \"0\",\n    \"AnimalStatusStartAgeUnit\": \"DAY\",\n    \"AnimalTypeID\": [1,2],\n    \"AnimalSexID\": [1]\n}"
+      "raw": "{\n    \"AnimalStatusStartAgeAmount\": \"0\",\n    \"AnimalStatusStartAgeUnit\": \"DAY\",\n    \"AnimalTypeID\": [1,2],\n    \"AnimalSexID\": [1]\n}",
+      "form": []
     },
     "auth": {
       "type": "bearer",
       "bearer": "{{access_token}}"
-    }
+    },
+    "tests": []
   },
   {
     "_id": "7422126e-58ec-4d77-977f-71c301cf16c8",
@@ -30587,16 +30590,19 @@
     "method": "POST",
     "sortNum": 5760000,
     "created": "2022-09-21T09:29:08.987Z",
-    "modified": "2022-09-21T09:29:08.987Z",
+    "modified": "2022-09-21T16:32:10.825Z",
     "headers": [],
+    "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n    \"Title\": \"Lorem Ipsum\",\n    \"Detail\": \"TEST TEST\",\n    \"DateShow\": \"2022-10-03\",\n    \"UserType\": 1\n}"
+      "raw": "{\n    \"Title\": \"Lorem Ipsum\",\n    \"Detail\": \"TEST TEST\",\n    \"DateShow\": \"2022-10-03\",\n    \"UserType\": 1\n}",
+      "form": []
     },
     "auth": {
       "type": "bearer",
       "bearer": "{{access_token}}"
-    }
+    },
+    "tests": []
   },
   {
     "_id": "bc1022c1-a200-4250-9eaf-58d8e8df8670",
@@ -30820,11 +30826,11 @@
     "colId": "3b79f32b-fd98-4eeb-aa7c-db5336782ca8",
     "containerId": "ae556d32-2db0-4192-b6cf-6b9821a5ca70",
     "name": "report5 การใช้น้ำเชื้อ",
-    "url": "{{url}}/report/report5?OrganizationZoneID&ProvinceID&AmphurID&TumbolID&AIZoneID&OrganizationID&AnimalTypeID=[1,2]&SemenNumber=25EN256&StartDate&EndDate",
+    "url": "{{url}}/report/report5?OrganizationZoneID&ProvinceID&AmphurID&TumbolID&AIZoneID&OrganizationID&AnimalTypeID=[1,2]&SemenNumber&StartDate&EndDate",
     "method": "GET",
     "sortNum": 5740000,
     "created": "2022-09-21T12:05:09.855Z",
-    "modified": "2022-09-21T13:15:55.631Z",
+    "modified": "2022-09-21T13:23:09.161Z",
     "headers": [],
     "params": [
       {
@@ -30864,7 +30870,7 @@
       },
       {
         "name": "SemenNumber",
-        "value": "25EN256",
+        "value": "",
         "isPath": false
       },
       {
@@ -30934,6 +30940,144 @@
       {
         "name": "SemenNumber",
         "value": "25EN256",
+        "isPath": false
+      },
+      {
+        "name": "StartDate",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "EndDate",
+        "value": "",
+        "isPath": false
+      }
+    ],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "93f4c0e1-8210-4e2e-b40c-5b7c370bce07",
+    "colId": "3b79f32b-fd98-4eeb-aa7c-db5336782ca8",
+    "containerId": "ae556d32-2db0-4192-b6cf-6b9821a5ca70",
+    "name": "report6 การใช้ตัวอ่อน",
+    "url": "{{url}}/report/report6?OrganizationZoneID&ProvinceID&AmphurID&TumbolID&AIZoneID&OrganizationID&AnimalTypeID=[1,2]&SemenNumber&StartDate&EndDate",
+    "method": "GET",
+    "sortNum": 5750000,
+    "created": "2022-09-21T13:35:52.031Z",
+    "modified": "2022-09-21T13:36:20.517Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "OrganizationZoneID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "ProvinceID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AmphurID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "TumbolID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AIZoneID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "OrganizationID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AnimalTypeID",
+        "value": "[1,2]",
+        "isPath": false
+      },
+      {
+        "name": "SemenNumber",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "StartDate",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "EndDate",
+        "value": "",
+        "isPath": false
+      }
+    ],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "4789d40b-9f1e-476e-8496-fcd5146d1908",
+    "colId": "5c5072e9-e740-4395-9d6f-7f693a729109",
+    "containerId": "21d1a545-0166-48c1-9457-8c9f8b6cc2e1",
+    "name": "report6 การใช้ตัวอ่อน",
+    "url": "{{url}}/report/report6?OrganizationZoneID&ProvinceID&AmphurID&TumbolID&AIZoneID&OrganizationID&AnimalTypeID=[1,2]&EmbryoNumber&StartDate&EndDate",
+    "method": "GET",
+    "sortNum": 5760000,
+    "created": "2022-09-21T13:47:23.657Z",
+    "modified": "2022-09-21T14:03:08.584Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "OrganizationZoneID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "ProvinceID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AmphurID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "TumbolID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AIZoneID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "OrganizationID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AnimalTypeID",
+        "value": "[1,2]",
+        "isPath": false
+      },
+      {
+        "name": "EmbryoNumber",
+        "value": "",
         "isPath": false
       },
       {

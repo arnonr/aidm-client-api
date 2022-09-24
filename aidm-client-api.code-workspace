@@ -5,7 +5,9 @@
 		}
 	],
 	"settings": {
-		"thunder-client.httpLibrary": "axios",
-		"thunder-client.saveToWorkspace": true
+		"thunder-client.httpLibrary": "got",
+		"thunder-client.saveToWorkspace": true,
+		"thunder-client.showActivityFromCollection": true,
+		"thunder-client.requestLog": "Advanced"
 	}
 }
