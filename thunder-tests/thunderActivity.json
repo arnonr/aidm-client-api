@@ -106,7 +106,7 @@
     "method": "POST",
     "sortNum": 0,
     "created": "2022-09-23T05:59:55.099Z",
-    "modified": "2022-09-23T05:59:56.596Z",
+    "modified": "2022-09-24T08:29:00.779Z",
     "headers": [],
     "params": [],
     "body": {
@@ -117,6 +117,144 @@
     "auth": {
       "type": "bearer",
       "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJzb255OTAiLCJyb2xlIjoiQWRtaW4iLCJleHAiOjE2NTI3OTAxNzgsImlhdCI6MTY1Mjc4NjU3OH0.wIBgG1T-asT9hT6KcVDNgvCqMxkiNNTUBZFjyl89oUw"
+    },
+    "tests": []
+  },
+  {
+    "_id": "0955aaa5-fbda-4c4e-84e5-374527bdc7c9",
+    "colId": "history",
+    "containerId": "",
+    "name": "{{url}}/report/report5?OrganizationZoneID&ProvinceID&AmphurID&TumbolID&AIZoneID&OrganizationID&AnimalTypeID=[1,2]&SemenNumber=25EN256&StartDate&EndDate",
+    "url": "{{url}}/report/report5?OrganizationZoneID&ProvinceID&AmphurID&TumbolID&AIZoneID&OrganizationID&AnimalTypeID=[1,2]&SemenNumber=25EN256&StartDate&EndDate",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-09-24T08:28:46.814Z",
+    "modified": "2022-09-24T08:28:48.651Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "OrganizationZoneID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "ProvinceID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AmphurID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "TumbolID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AIZoneID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "OrganizationID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AnimalTypeID",
+        "value": "[1,2]",
+        "isPath": false
+      },
+      {
+        "name": "SemenNumber",
+        "value": "25EN256",
+        "isPath": false
+      },
+      {
+        "name": "StartDate",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "EndDate",
+        "value": "",
+        "isPath": false
+      }
+    ],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "6e6a8cb4-7a9b-4c0e-8967-58f408ab48e9",
+    "colId": "history",
+    "containerId": "",
+    "name": "{{url}}/report/report6?OrganizationZoneID&ProvinceID&AmphurID&TumbolID&AIZoneID&OrganizationID&AnimalTypeID=[1,2]&EmbryoNumber&StartDate&EndDate",
+    "url": "{{url}}/report/report6?OrganizationZoneID&ProvinceID&AmphurID&TumbolID&AIZoneID&OrganizationID&AnimalTypeID=[1,2]&EmbryoNumber&StartDate&EndDate",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-09-24T08:28:54.115Z",
+    "modified": "2022-09-24T08:29:17.202Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "OrganizationZoneID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "ProvinceID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AmphurID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "TumbolID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AIZoneID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "OrganizationID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AnimalTypeID",
+        "value": "[1,2]",
+        "isPath": false
+      },
+      {
+        "name": "EmbryoNumber",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "StartDate",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "EndDate",
+        "value": "",
+        "isPath": false
+      }
+    ],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
     },
     "tests": []
   }
