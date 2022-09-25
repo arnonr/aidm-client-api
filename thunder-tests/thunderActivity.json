@@ -37,7 +37,7 @@
     "method": "GET",
     "sortNum": 0,
     "created": "2022-09-22T05:23:01.295Z",
-    "modified": "2022-09-25T13:02:01.434Z",
+    "modified": "2022-09-25T14:23:05.172Z",
     "headers": [],
     "params": [
       {
@@ -198,7 +198,7 @@
     "method": "GET",
     "sortNum": 0,
     "created": "2022-09-24T08:28:54.115Z",
-    "modified": "2022-09-24T08:29:17.202Z",
+    "modified": "2022-09-25T14:19:27.425Z",
     "headers": [],
     "params": [
       {
@@ -734,6 +734,339 @@
       },
       {
         "name": "ResponsibilityStaffID",
+        "value": "",
+        "isPath": false
+      }
+    ],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "cac0d9c6-f033-4fa7-8f97-db88c1f522ce",
+    "colId": "history",
+    "containerId": "",
+    "name": "{{url}}/report/report7?OrganizationZoneID&ProvinceID&AmphurID&TumbolID&AIZoneID&OrganizationID&AnimalTypeID=[1,2]&EmbryoNumber&StartDate&EndDate",
+    "url": "{{url}}/report/report7?OrganizationZoneID&ProvinceID&AmphurID&TumbolID&AIZoneID&OrganizationID&AnimalTypeID=[1,2]&EmbryoNumber&StartDate&EndDate",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-09-25T14:19:33.861Z",
+    "modified": "2022-09-25T14:22:50.192Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "OrganizationZoneID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "ProvinceID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AmphurID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "TumbolID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AIZoneID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "OrganizationID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AnimalTypeID",
+        "value": "[1,2]",
+        "isPath": false
+      },
+      {
+        "name": "EmbryoNumber",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "StartDate",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "EndDate",
+        "value": "",
+        "isPath": false
+      }
+    ],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "c7d980a7-4e5f-414d-82c9-4e33ef45f4ed",
+    "colId": "history",
+    "containerId": "",
+    "name": "{{url}}/report/report7?OrganizationZoneID&ProvinceID&AmphurID&TumbolID&AIZoneID&OrganizationID&AnimalTypeID=[1,2]&SemenNumber&StartDate&EndDate",
+    "url": "{{url}}/report/report7?OrganizationZoneID&ProvinceID&AmphurID&TumbolID&AIZoneID&OrganizationID&AnimalTypeID=[1,2]&SemenNumber&StartDate&EndDate",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-09-25T14:23:21.918Z",
+    "modified": "2022-09-25T14:34:45.292Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "OrganizationZoneID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "ProvinceID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AmphurID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "TumbolID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AIZoneID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "OrganizationID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AnimalTypeID",
+        "value": "[1,2]",
+        "isPath": false
+      },
+      {
+        "name": "SemenNumber",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "StartDate",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "EndDate",
+        "value": "",
+        "isPath": false
+      }
+    ],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "49eb8ea3-47d1-419d-8d21-8e5567abc053",
+    "colId": "history",
+    "containerId": "",
+    "name": "{{url}}/report/report7?AIZoneID&AnimalTypeID=[1,2]&FarmID&AnimalSexID",
+    "url": "{{url}}/report/report7?AIZoneID&AnimalTypeID=[1,2]&FarmID&AnimalSexID",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-09-25T14:35:17.827Z",
+    "modified": "2022-09-25T14:35:35.062Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "AIZoneID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AnimalTypeID",
+        "value": "[1,2]",
+        "isPath": false
+      },
+      {
+        "name": "FarmID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AnimalSexID",
+        "value": "",
+        "isPath": false
+      }
+    ],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "6906f13b-9ecf-4bcb-a788-9c6d273d73e9",
+    "colId": "history",
+    "containerId": "",
+    "name": "{{url}}/report/report7?AIZoneID&AnimalTypeID=[1,2]&FarmID&AnimalSexID=1",
+    "url": "{{url}}/report/report7?AIZoneID&AnimalTypeID=[1,2]&FarmID&AnimalSexID=1",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-09-25T14:35:23.352Z",
+    "modified": "2022-09-25T14:35:23.825Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "AIZoneID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AnimalTypeID",
+        "value": "[1,2]",
+        "isPath": false
+      },
+      {
+        "name": "FarmID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AnimalSexID",
+        "value": "1",
+        "isPath": false
+      }
+    ],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "913f14c5-447d-4fcf-9f37-f4010b00f072",
+    "colId": "history",
+    "containerId": "",
+    "name": "{{url}}/report/report7?AIZoneID&AnimalTypeID=[1,2]&FarmID=1&AnimalSexID",
+    "url": "{{url}}/report/report7?AIZoneID&AnimalTypeID=[1,2]&FarmID=1&AnimalSexID",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-09-25T14:35:31.565Z",
+    "modified": "2022-09-25T14:35:32.040Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "AIZoneID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AnimalTypeID",
+        "value": "[1,2]",
+        "isPath": false
+      },
+      {
+        "name": "FarmID",
+        "value": "1",
+        "isPath": false
+      },
+      {
+        "name": "AnimalSexID",
+        "value": "",
+        "isPath": false
+      }
+    ],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "adf61a88-dccf-4dbe-8874-a9c3d6032655",
+    "colId": "history",
+    "containerId": "",
+    "name": "{{url}}/report/report7?AIZoneID=1&AnimalTypeID=[1,2]&FarmID&AnimalSexID",
+    "url": "{{url}}/report/report7?AIZoneID=1&AnimalTypeID=[1,2]&FarmID&AnimalSexID",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-09-25T14:35:39.830Z",
+    "modified": "2022-09-25T14:35:40.309Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "AIZoneID",
+        "value": "1",
+        "isPath": false
+      },
+      {
+        "name": "AnimalTypeID",
+        "value": "[1,2]",
+        "isPath": false
+      },
+      {
+        "name": "FarmID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AnimalSexID",
+        "value": "",
+        "isPath": false
+      }
+    ],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "d56fa015-ef29-44d1-b736-df8ed8fc7f64",
+    "colId": "history",
+    "containerId": "",
+    "name": "{{url}}/report/report7?AIZoneID=7&AnimalTypeID=[1,2]&FarmID&AnimalSexID",
+    "url": "{{url}}/report/report7?AIZoneID=7&AnimalTypeID=[1,2]&FarmID&AnimalSexID",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-09-25T14:35:44.911Z",
+    "modified": "2022-09-25T14:37:34.233Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "AIZoneID",
+        "value": "7",
+        "isPath": false
+      },
+      {
+        "name": "AnimalTypeID",
+        "value": "[1,2]",
+        "isPath": false
+      },
+      {
+        "name": "FarmID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AnimalSexID",
         "value": "",
         "isPath": false
       }

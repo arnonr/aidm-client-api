@@ -31113,7 +31113,7 @@
     "method": "GET",
     "sortNum": 5760000,
     "created": "2022-09-21T13:47:23.657Z",
-    "modified": "2022-09-21T14:03:08.584Z",
+    "modified": "2022-09-25T14:23:16.771Z",
     "headers": [],
     "params": [
       {
@@ -31163,6 +31163,84 @@
       },
       {
         "name": "EndDate",
+        "value": "",
+        "isPath": false
+      }
+    ],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "3f48ed0c-9487-4d72-8f5f-5827078680fe",
+    "colId": "3b79f32b-fd98-4eeb-aa7c-db5336782ca8",
+    "containerId": "ae556d32-2db0-4192-b6cf-6b9821a5ca70",
+    "name": "report7 การเจริญเติบโต",
+    "url": "{{url}}/report/report7?AIZoneID=7&AnimalTypeID=[1,2]&FarmID&AnimalSexID",
+    "method": "GET",
+    "sortNum": 5760000,
+    "created": "2022-09-25T14:18:29.997Z",
+    "modified": "2022-09-25T14:35:45.378Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "AIZoneID",
+        "value": "7",
+        "isPath": false
+      },
+      {
+        "name": "AnimalTypeID",
+        "value": "[1,2]",
+        "isPath": false
+      },
+      {
+        "name": "FarmID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AnimalSexID",
+        "value": "",
+        "isPath": false
+      }
+    ],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "22082e7d-3b00-46e4-a65c-46c8e09759c1",
+    "colId": "5c5072e9-e740-4395-9d6f-7f693a729109",
+    "containerId": "21d1a545-0166-48c1-9457-8c9f8b6cc2e1",
+    "name": "report7 การเจริญเติบโต",
+    "url": "{{url}}/report/report7?AIZoneID=7&AnimalTypeID=[1,2]&FarmID&AnimalSexID",
+    "method": "GET",
+    "sortNum": 5770000,
+    "created": "2022-09-25T14:36:55.668Z",
+    "modified": "2022-09-25T14:37:20.711Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "AIZoneID",
+        "value": "7",
+        "isPath": false
+      },
+      {
+        "name": "AnimalTypeID",
+        "value": "[1,2]",
+        "isPath": false
+      },
+      {
+        "name": "FarmID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AnimalSexID",
         "value": "",
         "isPath": false
       }
