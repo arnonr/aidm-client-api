@@ -31250,5 +31250,123 @@
       "bearer": "{{access_token}}"
     },
     "tests": []
+  },
+  {
+    "_id": "558b1a57-4956-4a12-b5d2-37c7b6368a76",
+    "colId": "3b79f32b-fd98-4eeb-aa7c-db5336782ca8",
+    "containerId": "ae556d32-2db0-4192-b6cf-6b9821a5ca70",
+    "name": "report8 รายงานครบกำหนดคลอด",
+    "url": "{{url}}/report/report8?OrganizationZoneID&ProvinceID&AmphurID&TumbolID&AnimalTypeID=[1,2]&Type=STAFF&StartDate&EndDate",
+    "method": "GET",
+    "sortNum": 5745000,
+    "created": "2022-09-25T15:01:00.816Z",
+    "modified": "2022-09-25T16:05:00.476Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "OrganizationZoneID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "ProvinceID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AmphurID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "TumbolID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AnimalTypeID",
+        "value": "[1,2]",
+        "isPath": false
+      },
+      {
+        "name": "Type",
+        "value": "STAFF",
+        "isPath": false
+      },
+      {
+        "name": "StartDate",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "EndDate",
+        "value": "",
+        "isPath": false
+      }
+    ],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "88678408-f54d-4f3d-8d95-68757a449af8",
+    "colId": "5c5072e9-e740-4395-9d6f-7f693a729109",
+    "containerId": "21d1a545-0166-48c1-9457-8c9f8b6cc2e1",
+    "name": "report8 รายงานครบกำหนดคลอด",
+    "url": "{{url}}/report/report8?OrganizationZoneID&ProvinceID&AmphurID&TumbolID&AnimalTypeID=[1,2]&Type=STAFF&StartDate&EndDate",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2022-09-25T16:09:08.080Z",
+    "modified": "2022-09-25T16:09:41.124Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "OrganizationZoneID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "ProvinceID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AmphurID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "TumbolID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AnimalTypeID",
+        "value": "[1,2]",
+        "isPath": false
+      },
+      {
+        "name": "Type",
+        "value": "STAFF",
+        "isPath": false
+      },
+      {
+        "name": "StartDate",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "EndDate",
+        "value": "",
+        "isPath": false
+      }
+    ],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
   }
 ]
