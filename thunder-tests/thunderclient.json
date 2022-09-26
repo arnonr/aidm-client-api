@@ -31180,9 +31180,9 @@
     "name": "report7 การเจริญเติบโต",
     "url": "{{url}}/report/report7?AIZoneID=7&AnimalTypeID=[1,2]&FarmID&AnimalSexID",
     "method": "GET",
-    "sortNum": 5760000,
+    "sortNum": 5752500,
     "created": "2022-09-25T14:18:29.997Z",
-    "modified": "2022-09-25T14:35:45.378Z",
+    "modified": "2022-09-26T13:56:34.123Z",
     "headers": [],
     "params": [
       {
@@ -31258,9 +31258,9 @@
     "name": "report8 รายงานครบกำหนดคลอด",
     "url": "{{url}}/report/report8?OrganizationZoneID&ProvinceID&AmphurID&TumbolID&AnimalTypeID=[1,2]&Type=STAFF&StartDate&EndDate",
     "method": "GET",
-    "sortNum": 5745000,
+    "sortNum": 5753750,
     "created": "2022-09-25T15:01:00.816Z",
-    "modified": "2022-09-25T16:05:00.476Z",
+    "modified": "2022-09-26T14:01:52.000Z",
     "headers": [],
     "params": [
       {
@@ -31359,6 +31359,70 @@
       },
       {
         "name": "EndDate",
+        "value": "",
+        "isPath": false
+      }
+    ],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "350552f7-f76a-4713-ab6e-80af0eb79754",
+    "colId": "3b79f32b-fd98-4eeb-aa7c-db5336782ca8",
+    "containerId": "ae556d32-2db0-4192-b6cf-6b9821a5ca70",
+    "name": "report10 โคสาวที่ยังไม่ได้ผสม",
+    "url": "{{url}}/report/report10?OrganizationZoneID&ProvinceID&AmphurID&TumbolID&AnimalTypeID=[1,2]&StartDate&EndDate&OrganizationID&FarmID",
+    "method": "GET",
+    "sortNum": 5755000,
+    "created": "2022-09-26T13:56:22.089Z",
+    "modified": "2022-09-26T13:57:54.930Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "OrganizationZoneID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "ProvinceID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AmphurID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "TumbolID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AnimalTypeID",
+        "value": "[1,2]",
+        "isPath": false
+      },
+      {
+        "name": "StartDate",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "EndDate",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "OrganizationID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "FarmID",
         "value": "",
         "isPath": false
       }
