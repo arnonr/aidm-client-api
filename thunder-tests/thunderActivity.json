@@ -1637,7 +1637,7 @@
     "method": "GET",
     "sortNum": 0,
     "created": "2022-09-26T13:57:54.311Z",
-    "modified": "2022-09-26T14:00:54.015Z",
+    "modified": "2022-09-26T14:22:18.503Z",
     "headers": [],
     "params": [
       {
@@ -1682,6 +1682,247 @@
       },
       {
         "name": "FarmID",
+        "value": "",
+        "isPath": false
+      }
+    ],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "1999212b-04e4-4a21-99ab-c4aa31a578f2",
+    "colId": "history",
+    "containerId": "",
+    "name": "{{url}}/report/report11?OrganizationZoneID&ProvinceID&AmphurID&TumbolID&AnimalTypeID=[1,2]&StartDate&EndDate&OrganizationID&FarmID",
+    "url": "{{url}}/report/report11?OrganizationZoneID&ProvinceID&AmphurID&TumbolID&AnimalTypeID=[1,2]&StartDate&EndDate&OrganizationID&FarmID",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-09-26T14:22:35.807Z",
+    "modified": "2022-09-26T14:58:54.199Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "OrganizationZoneID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "ProvinceID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AmphurID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "TumbolID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AnimalTypeID",
+        "value": "[1,2]",
+        "isPath": false
+      },
+      {
+        "name": "StartDate",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "EndDate",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "OrganizationID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "FarmID",
+        "value": "",
+        "isPath": false
+      }
+    ],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "1e6a0aa9-0d5c-45e7-8872-e198ee04214b",
+    "colId": "history",
+    "containerId": "",
+    "name": "{{url}}/report/report12?OrganizationZoneID&ProvinceID&AmphurID&TumbolID&AnimalTypeID=[1,2]&StartDate&EndDate&OrganizationID&FarmID",
+    "url": "{{url}}/report/report12?OrganizationZoneID&ProvinceID&AmphurID&TumbolID&AnimalTypeID=[1,2]&StartDate&EndDate&OrganizationID&FarmID",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-09-26T14:58:59.992Z",
+    "modified": "2022-09-26T15:09:48.488Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "OrganizationZoneID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "ProvinceID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AmphurID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "TumbolID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AnimalTypeID",
+        "value": "[1,2]",
+        "isPath": false
+      },
+      {
+        "name": "StartDate",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "EndDate",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "OrganizationID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "FarmID",
+        "value": "",
+        "isPath": false
+      }
+    ],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "63709034-181a-4a3c-a589-85446cc4fb1e",
+    "colId": "history",
+    "containerId": "",
+    "name": "{{url}}/report/report12?ProvinceID&AnimalTypeID=[1,2]&StartDate&EndDate&FarmID&ResponsibilityStaffID&AnimalID",
+    "url": "{{url}}/report/report12?ProvinceID&AnimalTypeID=[1,2]&StartDate&EndDate&FarmID&ResponsibilityStaffID&AnimalID",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-09-26T15:11:38.968Z",
+    "modified": "2022-09-26T15:11:40.913Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "ProvinceID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AnimalTypeID",
+        "value": "[1,2]",
+        "isPath": false
+      },
+      {
+        "name": "StartDate",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "EndDate",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "FarmID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "ResponsibilityStaffID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AnimalID",
+        "value": "",
+        "isPath": false
+      }
+    ],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "b5917e7c-f3db-4d8e-a9cb-e6fec23126ef",
+    "colId": "history",
+    "containerId": "",
+    "name": "{{url}}/report/report12?ProvinceID&AnimalTypeID=[1,2]&StartDate&EndDate&FarmID&ResponsibilityStaffID&AnimalID&AIZoneID",
+    "url": "{{url}}/report/report12?ProvinceID&AnimalTypeID=[1,2]&StartDate&EndDate&FarmID&ResponsibilityStaffID&AnimalID&AIZoneID",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-09-26T15:11:59.206Z",
+    "modified": "2022-09-26T15:12:01.084Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "ProvinceID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AnimalTypeID",
+        "value": "[1,2]",
+        "isPath": false
+      },
+      {
+        "name": "StartDate",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "EndDate",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "FarmID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "ResponsibilityStaffID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AnimalID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AIZoneID",
         "value": "",
         "isPath": false
       }

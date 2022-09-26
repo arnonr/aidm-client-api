@@ -15155,9 +15155,9 @@
     "name": "report2 ประวัติแม่โครายตัว",
     "url": "{{url}}/report/report2",
     "method": "GET",
-    "sortNum": 5730000,
+    "sortNum": 5715000,
     "created": "2022-09-19T08:09:36.056Z",
-    "modified": "2022-09-21T11:57:45.597Z",
+    "modified": "2022-09-26T14:05:33.395Z",
     "headers": [],
     "params": [
       {
@@ -31317,9 +31317,9 @@
     "name": "report8 รายงานครบกำหนดคลอด",
     "url": "{{url}}/report/report8?OrganizationZoneID&ProvinceID&AmphurID&TumbolID&AnimalTypeID=[1,2]&Type=STAFF&StartDate&EndDate",
     "method": "GET",
-    "sortNum": 10000,
+    "sortNum": 5775000,
     "created": "2022-09-25T16:09:08.080Z",
-    "modified": "2022-09-25T16:09:41.124Z",
+    "modified": "2022-09-26T14:05:26.512Z",
     "headers": [],
     "params": [
       {
@@ -31423,6 +31423,321 @@
       },
       {
         "name": "FarmID",
+        "value": "",
+        "isPath": false
+      }
+    ],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "8f42ba50-b62b-4649-804d-5ee59e3cb978",
+    "colId": "5c5072e9-e740-4395-9d6f-7f693a729109",
+    "containerId": "21d1a545-0166-48c1-9457-8c9f8b6cc2e1",
+    "name": "report10 โคสาวที่ยังไม่ได้รับการผสม (Draft Data)",
+    "url": "{{url}}/report/report10?OrganizationZoneID&ProvinceID&AmphurID&TumbolID&AnimalTypeID=[1,2]&StartDate&EndDate&OrganizationID&FarmID",
+    "method": "GET",
+    "sortNum": 5780000,
+    "created": "2022-09-26T14:05:14.028Z",
+    "modified": "2022-09-26T14:05:21.056Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "OrganizationZoneID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "ProvinceID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AmphurID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "TumbolID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AnimalTypeID",
+        "value": "[1,2]",
+        "isPath": false
+      },
+      {
+        "name": "StartDate",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "EndDate",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "OrganizationID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "FarmID",
+        "value": "",
+        "isPath": false
+      }
+    ],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "285ab3e7-3507-43b2-8384-67a537a4d8cf",
+    "colId": "3b79f32b-fd98-4eeb-aa7c-db5336782ca8",
+    "containerId": "ae556d32-2db0-4192-b6cf-6b9821a5ca70",
+    "name": "report11 ตรวจระบบสืบพันธ์หลังคลอด 30 วัน",
+    "url": "{{url}}/report/report11?OrganizationZoneID&ProvinceID&AmphurID&TumbolID&AnimalTypeID=[1,2]&StartDate&EndDate&OrganizationID&FarmID",
+    "method": "GET",
+    "sortNum": 5765000,
+    "created": "2022-09-26T14:21:47.490Z",
+    "modified": "2022-09-26T14:22:36.339Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "OrganizationZoneID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "ProvinceID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AmphurID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "TumbolID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AnimalTypeID",
+        "value": "[1,2]",
+        "isPath": false
+      },
+      {
+        "name": "StartDate",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "EndDate",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "OrganizationID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "FarmID",
+        "value": "",
+        "isPath": false
+      }
+    ],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "01b8f315-a100-4d50-8492-6bb7cde2613b",
+    "colId": "5c5072e9-e740-4395-9d6f-7f693a729109",
+    "containerId": "21d1a545-0166-48c1-9457-8c9f8b6cc2e1",
+    "name": "report11 ตรวจระบบสืบพันธ์หลังคลอด 30 วัน (Draft Data)",
+    "url": "{{url}}/report/report11?OrganizationZoneID&ProvinceID&AmphurID&TumbolID&AnimalTypeID=[1,2]&StartDate&EndDate&OrganizationID&FarmID",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2022-09-26T14:43:36.372Z",
+    "modified": "2022-09-26T14:43:43.557Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "OrganizationZoneID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "ProvinceID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AmphurID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "TumbolID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AnimalTypeID",
+        "value": "[1,2]",
+        "isPath": false
+      },
+      {
+        "name": "StartDate",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "EndDate",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "OrganizationID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "FarmID",
+        "value": "",
+        "isPath": false
+      }
+    ],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "393a3d89-8a15-4650-889f-68fb0a0f3eac",
+    "colId": "3b79f32b-fd98-4eeb-aa7c-db5336782ca8",
+    "containerId": "ae556d32-2db0-4192-b6cf-6b9821a5ca70",
+    "name": "report12 แก้ไขปัญหาทางระบบสืบพันธุ์",
+    "url": "{{url}}/report/report12?OrganizationZoneID&ProvinceID&AmphurID&TumbolID&AnimalTypeID=[1,2]&StartDate&EndDate&OrganizationID&FarmID",
+    "method": "GET",
+    "sortNum": 5775000,
+    "created": "2022-09-26T14:58:28.134Z",
+    "modified": "2022-09-26T14:59:00.450Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "OrganizationZoneID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "ProvinceID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AmphurID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "TumbolID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AnimalTypeID",
+        "value": "[1,2]",
+        "isPath": false
+      },
+      {
+        "name": "StartDate",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "EndDate",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "OrganizationID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "FarmID",
+        "value": "",
+        "isPath": false
+      }
+    ],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "05f4bad8-23c1-4809-8235-bc75f0abb2f5",
+    "colId": "5c5072e9-e740-4395-9d6f-7f693a729109",
+    "containerId": "21d1a545-0166-48c1-9457-8c9f8b6cc2e1",
+    "name": "report12 แก้ไขปัญหาทางระบบสืบพันธุ์ (Draft Data)",
+    "url": "{{url}}/report/report12?ProvinceID&AnimalTypeID=[1,2]&StartDate&EndDate&FarmID&ResponsibilityStaffID&AnimalID&AIZoneID",
+    "method": "GET",
+    "sortNum": 20000,
+    "created": "2022-09-26T15:06:38.159Z",
+    "modified": "2022-09-26T15:12:01.068Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "ProvinceID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AnimalTypeID",
+        "value": "[1,2]",
+        "isPath": false
+      },
+      {
+        "name": "StartDate",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "EndDate",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "FarmID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "ResponsibilityStaffID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AnimalID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AIZoneID",
         "value": "",
         "isPath": false
       }
