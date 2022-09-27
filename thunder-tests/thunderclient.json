@@ -509,9 +509,12 @@
     "method": "POST",
     "sortNum": 260000,
     "created": "2022-09-19T08:09:35.507Z",
-    "modified": "2022-09-19T08:09:35.507Z",
+    "modified": "2022-09-27T04:05:53.142Z",
     "headers": [],
+    "params": [],
     "body": {
+      "type": "formdata",
+      "raw": "",
       "form": [
         {
           "name": "username",
@@ -525,9 +528,7 @@
           "name": "grant_type",
           "value": "password"
         }
-      ],
-      "files": [],
-      "type": "formdata"
+      ]
     },
     "auth": {
       "type": "basic",
@@ -535,7 +536,8 @@
         "username": "zealtech",
         "password": "zeal1tech"
       }
-    }
+    },
+    "tests": []
   },
   {
     "_id": "63dbedeb-34c8-4f81-85ca-69d4d090305b",
@@ -15897,9 +15899,12 @@
     "method": "POST",
     "sortNum": 260000,
     "created": "2022-09-21T09:29:08.434Z",
-    "modified": "2022-09-21T09:29:08.434Z",
+    "modified": "2022-09-27T04:06:11.444Z",
     "headers": [],
+    "params": [],
     "body": {
+      "type": "formdata",
+      "raw": "",
       "form": [
         {
           "name": "username",
@@ -15913,9 +15918,7 @@
           "name": "grant_type",
           "value": "password"
         }
-      ],
-      "files": [],
-      "type": "formdata"
+      ]
     },
     "auth": {
       "type": "basic",
@@ -15923,7 +15926,8 @@
         "username": "zealtech",
         "password": "zeal1tech"
       }
-    }
+    },
+    "tests": []
   },
   {
     "_id": "9f97254b-4edf-4a25-987e-8e2ae1a03b9a",
@@ -31747,5 +31751,154 @@
       "bearer": "{{access_token}}"
     },
     "tests": []
+  },
+  {
+    "_id": "2f10f3bf-3b85-4ce5-b121-ee2ee57c9d52",
+    "colId": "3b79f32b-fd98-4eeb-aa7c-db5336782ca8",
+    "containerId": "ae556d32-2db0-4192-b6cf-6b9821a5ca70",
+    "name": "report13 การผสมเทียม ผท6",
+    "url": "{{url}}/report/report13?OrganizationZoneID&ProvinceID&AmphurID&TumbolID&AnimalTypeID=[1,2]&StartDate&EndDate&OrganizationID&FarmID&AIZoneID&ProjectID",
+    "method": "GET",
+    "sortNum": 5785000,
+    "created": "2022-09-27T10:53:57.126Z",
+    "modified": "2022-09-27T11:45:30.704Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "OrganizationZoneID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "ProvinceID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AmphurID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "TumbolID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AnimalTypeID",
+        "value": "[1,2]",
+        "isPath": false
+      },
+      {
+        "name": "StartDate",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "EndDate",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "OrganizationID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "FarmID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AIZoneID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "ProjectID",
+        "value": "",
+        "isPath": false
+      }
+    ],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "5c252990-3e06-4259-b61b-5aa9b05ed12d",
+    "colId": "5c5072e9-e740-4395-9d6f-7f693a729109",
+    "containerId": "21d1a545-0166-48c1-9457-8c9f8b6cc2e1",
+    "name": "report13 การผสมเทียม ผท6 Copy",
+    "url": "{{url}}/report/report13?OrganizationZoneID&ProvinceID&AmphurID&TumbolID&AnimalTypeID=[1,2]&StartDate&EndDate&OrganizationID&FarmID&AIZoneID&ProjectID",
+    "method": "GET",
+    "sortNum": 30000,
+    "created": "2022-09-27T11:45:46.518Z",
+    "modified": "2022-09-27T11:52:07.802Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "OrganizationZoneID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "ProvinceID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AmphurID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "TumbolID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AnimalTypeID",
+        "value": "[1,2]",
+        "isPath": false
+      },
+      {
+        "name": "StartDate",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "EndDate",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "OrganizationID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "FarmID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AIZoneID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "ProjectID",
+        "value": "",
+        "isPath": false
+      }
+    ],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    },
+    "tests": [],
+    "docs": "รายงาน 13 การผสมเทียม ไม่มีตัวอย่างในโคนม\n\nให้แสดงข้อมูลรวมด้านบน\nTotal: จำนวนทะเบียนติดตามงาน(ผท.6)\nผลการติดตาม\npreg1: ท้อง,\npreg2: ไม่ท้อง,\npreg3: รอตรวจซ้ำ,\npreg4: ไม่พบข้อมูล,\n\n\nส่วนตารางด้านล่างแบ่งกลุ่มตาม Farm (Array ชั้นแรก)\n\"FarmID\": 1,\n\"FarmName\": \"แสนสุข\",\n\"AmphurName\": \"เมืองขอนแก่น\",\n \"ProvinceName\": \"ขอนแก่น\",\n\nส่วนรายการในตารางคือรายการผสมเทียม AI\n\n\n  "
   }
 ]
