@@ -31900,5 +31900,84 @@
     },
     "tests": [],
     "docs": "รายงาน 13 การผสมเทียม ไม่มีตัวอย่างในโคนม\n\nให้แสดงข้อมูลรวมด้านบน\nTotal: จำนวนทะเบียนติดตามงาน(ผท.6)\nผลการติดตาม\npreg1: ท้อง,\npreg2: ไม่ท้อง,\npreg3: รอตรวจซ้ำ,\npreg4: ไม่พบข้อมูล,\n\n\nส่วนตารางด้านล่างแบ่งกลุ่มตาม Farm (Array ชั้นแรก)\n\"FarmID\": 1,\n\"FarmName\": \"แสนสุข\",\n\"AmphurName\": \"เมืองขอนแก่น\",\n \"ProvinceName\": \"ขอนแก่น\",\n\nส่วนรายการในตารางคือรายการผสมเทียม AI\n\n\n  "
+  },
+  {
+    "_id": "0b93e829-6a2e-4ab7-b52e-03934714cc7e",
+    "colId": "3b79f32b-fd98-4eeb-aa7c-db5336782ca8",
+    "containerId": "ae556d32-2db0-4192-b6cf-6b9821a5ca70",
+    "name": "report9 การตรวจท้อง",
+    "url": "{{url}}/report/report9?OrganizationZoneID&ProvinceID&AmphurID&TumbolID&AnimalTypeID=[1,2]&StartDate&EndDate&OrganizationID&FarmID&AIZoneID&ProjectID&day=30",
+    "method": "GET",
+    "sortNum": 5795000,
+    "created": "2022-09-27T12:19:10.920Z",
+    "modified": "2022-09-27T13:08:36.673Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "OrganizationZoneID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "ProvinceID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AmphurID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "TumbolID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AnimalTypeID",
+        "value": "[1,2]",
+        "isPath": false
+      },
+      {
+        "name": "StartDate",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "EndDate",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "OrganizationID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "FarmID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AIZoneID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "ProjectID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "day",
+        "value": "30",
+        "isPath": false
+      }
+    ],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
   }
 ]
