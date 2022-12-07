@@ -29138,11 +29138,11 @@
     "colId": "3b79f32b-fd98-4eeb-aa7c-db5336782ca8",
     "containerId": "75f5c7d3-bf19-492f-a529-6d0dee3a2a79",
     "name": "getAll",
-    "url": "{{url}}/farm?FarmID&ProjectID&FarmIdentificationNumber&FarmName&FarmTumbolID&FarmAmphurID&FarmProvinceID&OrganizationID&OrganizationZoneID&AIZoneID&FarmStatusID&FarmRegisterStartDate&FarmRegisterEndDate",
+    "url": "{{url}}/farm?FarmID&ProjectID&FarmIdentificationNumber&FarmName&FarmTumbolID&FarmAmphurID&FarmProvinceID&OrganizationID&OrganizationZoneID&AIZoneID&FarmStatusID&FarmRegisterStartDate&FarmRegisterEndDate&GetByOrgProvince=1",
     "method": "GET",
     "sortNum": 5310000,
     "created": "2022-09-21T09:29:08.941Z",
-    "modified": "2022-12-07T03:27:04.038Z",
+    "modified": "2022-12-07T03:33:34.546Z",
     "headers": [],
     "params": [
       {
@@ -29249,7 +29249,6 @@
       {
         "name": "GetByOrgProvince",
         "value": "1",
-        "isDisabled": true,
         "isPath": false
       }
     ],
