@@ -54,46 +54,55 @@
     "method": "GET",
     "sortNum": 30000,
     "created": "2022-09-19T08:09:35.484Z",
-    "modified": "2022-09-19T08:09:35.484Z",
+    "modified": "2022-11-30T04:23:54.102Z",
     "headers": [],
     "params": [
       {
         "name": "UserID",
-        "value": ""
+        "value": "",
+        "isPath": false
       },
       {
         "name": "Username",
-        "value": null
+        "value": "",
+        "isPath": false
       },
       {
         "name": "StaffID",
-        "value": null
+        "value": "",
+        "isPath": false
       },
       {
         "name": "GroupID",
-        "value": null
+        "value": "",
+        "isPath": false
       },
       {
         "name": "AnimalTypeID",
-        "value": ""
+        "value": "",
+        "isPath": false
       },
       {
         "name": "IsApprove",
-        "value": null
+        "value": "",
+        "isPath": false
       },
       {
         "name": "ApproveByStaffID",
-        "value": null
+        "value": "",
+        "isPath": false
       },
       {
         "name": "isActive",
-        "value": null
+        "value": "",
+        "isPath": false
       }
     ],
     "auth": {
       "type": "bearer",
       "bearer": "{{access_token}}"
-    }
+    },
+    "tests": []
   },
   {
     "_id": "811c3166-6bc2-430e-a7de-0449beb0ca88",
@@ -13673,96 +13682,116 @@
     "method": "GET",
     "sortNum": 5310000,
     "created": "2022-09-19T08:09:36.014Z",
-    "modified": "2022-09-19T08:09:36.014Z",
+    "modified": "2022-12-02T04:43:15.819Z",
     "headers": [],
     "params": [
       {
         "name": "FarmID",
-        "value": ""
+        "value": "",
+        "isPath": false
       },
       {
         "name": "ResidenceLatitude",
         "value": "",
-        "isDisabled": true
+        "isDisabled": true,
+        "isPath": false
       },
       {
         "name": "ResidenceLongitude",
         "value": "",
-        "isDisabled": true
+        "isDisabled": true,
+        "isPath": false
       },
       {
         "name": "ProjectID",
-        "value": ""
+        "value": "",
+        "isPath": false
       },
       {
         "name": "FarmRegisterStartDate",
         "value": "2022-07-05",
-        "isDisabled": true
+        "isDisabled": true,
+        "isPath": false
       },
       {
         "name": "FarmRegisterEndDate",
         "value": "2022-07-05",
-        "isDisabled": true
+        "isDisabled": true,
+        "isPath": false
       },
       {
         "name": "FullName",
         "value": "ประยูร",
-        "isDisabled": true
+        "isDisabled": true,
+        "isPath": false
       },
       {
         "name": "FarmIdentificationNumber",
-        "value": null
+        "value": "",
+        "isPath": false
       },
       {
         "name": "FarmName",
-        "value": null
+        "value": "",
+        "isPath": false
       },
       {
         "name": "FarmTumbolID",
-        "value": null
+        "value": "",
+        "isPath": false
       },
       {
         "name": "FarmAmphurID",
-        "value": null
+        "value": "",
+        "isPath": false
       },
       {
         "name": "FarmProvinceID",
-        "value": null
+        "value": "",
+        "isPath": false
       },
       {
         "name": "OrganizationID",
-        "value": null
+        "value": "",
+        "isPath": false
       },
       {
         "name": "OrganizationZoneID",
-        "value": null
+        "value": "",
+        "isPath": false
       },
       {
         "name": "AIZoneID",
-        "value": null
+        "value": "",
+        "isPath": false
       },
       {
         "name": "FarmStatusID",
-        "value": null
+        "value": "",
+        "isPath": false
       },
       {
         "name": "FarmRegisterStartDate",
-        "value": null
+        "value": "",
+        "isPath": false
       },
       {
         "name": "FarmRegisterEndDate",
-        "value": null
+        "value": "",
+        "isPath": false
       },
       {
         "name": "FarmType",
         "value": "ฟาร์มมาตรฐาน",
-        "isDisabled": true
+        "isDisabled": true,
+        "isPath": false
       }
     ],
     "auth": {
       "type": "bearer",
       "bearer": "{{access_token}}"
-    }
+    },
+    "tests": []
   },
   {
     "_id": "41cfb250-4ff6-4607-802e-85381124e5b0",
@@ -14446,170 +14475,213 @@
     "colId": "5c5072e9-e740-4395-9d6f-7f693a729109",
     "containerId": "a1760af9-639d-427e-9958-2ea4a6481e7c",
     "name": "getAll",
-    "url": "{{url}}/animal?AnimalMicrochip=&FarmID=&AnimalSource=&size=10&AnimalAgeStart=1&AnimalAgeTo=2&AnimalBreedID1=1&AnimalBreedID2=8&AnimalID&AnimalIdentificationID&AnimalNationalID&AnimalEarID&AnimalSexID&AnimalName&AnimalFirstBreed&AnimalFatherID&AnimalMotherID&AnimalBornType&AnimalBornTypeID&SourceFarmID&OrganizationID&OrganizationZoneID&ProjectID&isActive&CreatedUserID&UpdatedUserID&AnimalBirthDateStart&AnimalBirthDateEnd",
+    "url": "{{url}}/animal?AnimalMicrochip&FarmID&AnimalSource&AnimalIdentificationID&AnimalNationalID&AnimalEarID&AnimalSexID&AnimalName&AnimalFirstBreed&AnimalFatherID&AnimalMotherID&AnimalBornType&AnimalBornTypeID&SourceFarmID&OrganizationID&OrganizationZoneID&ProjectID&isActive&CreatedUserID&UpdatedUserID&AnimalBirthDateStart&AnimalBirthDateEnd",
     "method": "GET",
     "sortNum": 5550000,
     "created": "2022-09-19T08:09:36.038Z",
-    "modified": "2022-09-19T08:09:36.038Z",
+    "modified": "2022-12-02T05:42:15.550Z",
     "headers": [],
     "params": [
       {
         "name": "AnimalMicrochip",
-        "value": ""
+        "value": "",
+        "isPath": false
       },
       {
         "name": "FarmID",
-        "value": ""
+        "value": "",
+        "isPath": false
       },
       {
         "name": "AnimalSource",
-        "value": ""
+        "value": "",
+        "isPath": false
       },
       {
         "name": "AnimalTypeID",
         "value": "[1,2]",
-        "isDisabled": true
+        "isDisabled": true,
+        "isPath": false
       },
       {
         "name": "size",
-        "value": "10"
+        "value": "10",
+        "isDisabled": true,
+        "isPath": false
       },
       {
         "name": "orderByField",
         "value": "AnimalEarID",
-        "isDisabled": true
+        "isDisabled": true,
+        "isPath": false
       },
       {
         "name": "orderBy",
         "value": "asc",
-        "isDisabled": true
+        "isDisabled": true,
+        "isPath": false
       },
       {
         "name": "AnimalAgeStart",
-        "value": "1"
+        "value": "1",
+        "isDisabled": true,
+        "isPath": false
       },
       {
         "name": "AnimalAgeTo",
-        "value": "2"
+        "value": "2",
+        "isDisabled": true,
+        "isPath": false
       },
       {
         "name": "AnimalBreedID1",
-        "value": "1"
+        "value": "1",
+        "isDisabled": true,
+        "isPath": false
       },
       {
         "name": "AnimalBreedID2",
-        "value": "8"
+        "value": "8",
+        "isDisabled": true,
+        "isPath": false
       },
       {
         "name": "AnimalBreedID3",
         "value": "",
-        "isDisabled": true
+        "isDisabled": true,
+        "isPath": false
       },
       {
         "name": "AnimalBreedID4",
         "value": "",
-        "isDisabled": true
+        "isDisabled": true,
+        "isPath": false
       },
       {
         "name": "AnimalBreedID5",
         "value": "",
-        "isDisabled": true
+        "isDisabled": true,
+        "isPath": false
       },
       {
         "name": "FarmName",
         "value": "ประยูรฟาร์ม",
-        "isDisabled": true
+        "isDisabled": true,
+        "isPath": false
       },
       {
         "name": "FarmerName",
         "value": "ประยูร",
-        "isDisabled": true
+        "isDisabled": true,
+        "isPath": false
       },
       {
         "name": "AnimalID",
-        "value": null
+        "value": "",
+        "isDisabled": true,
+        "isPath": false
       },
       {
         "name": "AnimalIdentificationID",
-        "value": null
+        "value": "",
+        "isPath": false
       },
       {
         "name": "AnimalNationalID",
-        "value": null
+        "value": "",
+        "isPath": false
       },
       {
         "name": "AnimalEarID",
-        "value": null
+        "value": "",
+        "isPath": false
       },
       {
         "name": "AnimalSexID",
-        "value": null
+        "value": "",
+        "isPath": false
       },
       {
         "name": "AnimalName",
-        "value": null
+        "value": "",
+        "isPath": false
       },
       {
         "name": "AnimalFirstBreed",
-        "value": null
+        "value": "",
+        "isPath": false
       },
       {
         "name": "AnimalFatherID",
-        "value": null
+        "value": "",
+        "isPath": false
       },
       {
         "name": "AnimalMotherID",
-        "value": null
+        "value": "",
+        "isPath": false
       },
       {
         "name": "AnimalBornType",
-        "value": null
+        "value": "",
+        "isPath": false
       },
       {
         "name": "AnimalBornTypeID",
-        "value": null
+        "value": "",
+        "isPath": false
       },
       {
         "name": "SourceFarmID",
-        "value": null
+        "value": "",
+        "isPath": false
       },
       {
         "name": "OrganizationID",
-        "value": null
+        "value": "",
+        "isPath": false
       },
       {
         "name": "OrganizationZoneID",
-        "value": null
+        "value": "",
+        "isPath": false
       },
       {
         "name": "ProjectID",
-        "value": null
+        "value": "",
+        "isPath": false
       },
       {
         "name": "isActive",
-        "value": null
+        "value": "",
+        "isPath": false
       },
       {
         "name": "CreatedUserID",
-        "value": null
+        "value": "",
+        "isPath": false
       },
       {
         "name": "UpdatedUserID",
-        "value": null
+        "value": "",
+        "isPath": false
       },
       {
         "name": "AnimalBirthDateStart",
-        "value": null
+        "value": "",
+        "isPath": false
       },
       {
         "name": "AnimalBirthDateEnd",
-        "value": null
+        "value": "",
+        "isPath": false
       }
     ],
     "auth": {
       "type": "bearer",
       "bearer": "{{access_token}}"
-    }
+    },
+    "tests": []
   },
   {
     "_id": "b13c3868-0718-4e27-992a-6f9cc351e30d",
@@ -15444,46 +15516,55 @@
     "method": "GET",
     "sortNum": 30000,
     "created": "2022-09-21T09:29:08.411Z",
-    "modified": "2022-09-21T09:29:08.411Z",
+    "modified": "2022-12-01T03:50:35.815Z",
     "headers": [],
     "params": [
       {
         "name": "UserID",
-        "value": ""
+        "value": "",
+        "isPath": false
       },
       {
         "name": "Username",
-        "value": null
+        "value": "",
+        "isPath": false
       },
       {
         "name": "StaffID",
-        "value": null
+        "value": "",
+        "isPath": false
       },
       {
         "name": "GroupID",
-        "value": null
+        "value": "",
+        "isPath": false
       },
       {
         "name": "AnimalTypeID",
-        "value": ""
+        "value": "",
+        "isPath": false
       },
       {
         "name": "IsApprove",
-        "value": null
+        "value": "",
+        "isPath": false
       },
       {
         "name": "ApproveByStaffID",
-        "value": null
+        "value": "",
+        "isPath": false
       },
       {
         "name": "isActive",
-        "value": null
+        "value": "",
+        "isPath": false
       }
     ],
     "auth": {
       "type": "bearer",
       "bearer": "{{access_token}}"
-    }
+    },
+    "tests": []
   },
   {
     "_id": "91f4c9f1-0675-4d34-a919-c7d47bec3c4e",
@@ -29057,100 +29138,126 @@
     "colId": "3b79f32b-fd98-4eeb-aa7c-db5336782ca8",
     "containerId": "75f5c7d3-bf19-492f-a529-6d0dee3a2a79",
     "name": "getAll",
-    "url": "{{url}}/farm?FarmID=&ProjectID=&FarmIdentificationNumber&FarmName&FarmTumbolID&FarmAmphurID&FarmProvinceID&OrganizationID&OrganizationZoneID&AIZoneID&FarmStatusID&FarmRegisterStartDate&FarmRegisterEndDate",
+    "url": "{{url}}/farm?FarmID&ProjectID&FarmIdentificationNumber&FarmName&FarmTumbolID&FarmAmphurID&FarmProvinceID&OrganizationID&OrganizationZoneID&AIZoneID&FarmStatusID&FarmRegisterStartDate&FarmRegisterEndDate",
     "method": "GET",
     "sortNum": 5310000,
     "created": "2022-09-21T09:29:08.941Z",
-    "modified": "2022-09-21T09:29:08.941Z",
+    "modified": "2022-12-07T03:27:04.038Z",
     "headers": [],
     "params": [
       {
         "name": "FarmID",
-        "value": ""
+        "value": "",
+        "isPath": false
       },
       {
         "name": "ResidenceLatitude",
         "value": "",
-        "isDisabled": true
+        "isDisabled": true,
+        "isPath": false
       },
       {
         "name": "ResidenceLongitude",
         "value": "",
-        "isDisabled": true
+        "isDisabled": true,
+        "isPath": false
       },
       {
         "name": "ProjectID",
-        "value": ""
+        "value": "",
+        "isPath": false
       },
       {
         "name": "FarmRegisterStartDate",
         "value": "2022-07-05",
-        "isDisabled": true
+        "isDisabled": true,
+        "isPath": false
       },
       {
         "name": "FarmRegisterEndDate",
         "value": "2022-07-05",
-        "isDisabled": true
+        "isDisabled": true,
+        "isPath": false
       },
       {
         "name": "FullName",
         "value": "ประยูร",
-        "isDisabled": true
+        "isDisabled": true,
+        "isPath": false
       },
       {
         "name": "FarmIdentificationNumber",
-        "value": null
+        "value": "",
+        "isPath": false
       },
       {
         "name": "FarmName",
-        "value": null
+        "value": "",
+        "isPath": false
       },
       {
         "name": "FarmTumbolID",
-        "value": null
+        "value": "",
+        "isPath": false
       },
       {
         "name": "FarmAmphurID",
-        "value": null
+        "value": "",
+        "isPath": false
       },
       {
         "name": "FarmProvinceID",
-        "value": null
+        "value": "",
+        "isPath": false
       },
       {
         "name": "OrganizationID",
-        "value": null
+        "value": "",
+        "isPath": false
       },
       {
         "name": "OrganizationZoneID",
-        "value": null
+        "value": "",
+        "isPath": false
       },
       {
         "name": "AIZoneID",
-        "value": null
+        "value": "",
+        "isPath": false
       },
       {
         "name": "FarmStatusID",
-        "value": null
+        "value": "",
+        "isPath": false
       },
       {
         "name": "FarmRegisterStartDate",
-        "value": null
+        "value": "",
+        "isPath": false
       },
       {
         "name": "FarmRegisterEndDate",
-        "value": null
+        "value": "",
+        "isPath": false
       },
       {
         "name": "FarmType",
         "value": "ฟาร์มมาตรฐาน",
-        "isDisabled": true
+        "isDisabled": true,
+        "isPath": false
+      },
+      {
+        "name": "GetByOrgProvince",
+        "value": "1",
+        "isDisabled": true,
+        "isPath": false
       }
     ],
     "auth": {
       "type": "bearer",
       "bearer": "{{access_token}}"
-    }
+    },
+    "tests": []
   },
   {
     "_id": "54d2f634-68b9-48bd-8a2e-b1c10a366066",
@@ -30086,30 +30193,34 @@
     "colId": "3b79f32b-fd98-4eeb-aa7c-db5336782ca8",
     "containerId": "72880bd6-3455-4cf1-8b00-654625c224aa",
     "name": "generate-number",
-    "url": "{{url}}/animal/generate-number?FarmID=24&BirthDate=2022-07-06&AnimalTypeID=1",
+    "url": "{{url}}/animal/generate-number?FarmID=1&BirthDate=2022-07-06&AnimalTypeID=1",
     "method": "GET",
     "sortNum": 5600000,
     "created": "2022-09-21T09:29:08.970Z",
-    "modified": "2022-09-21T09:29:08.970Z",
+    "modified": "2022-11-17T10:50:03.521Z",
     "headers": [],
     "params": [
       {
         "name": "FarmID",
-        "value": "24"
+        "value": "1",
+        "isPath": false
       },
       {
         "name": "BirthDate",
-        "value": "2022-07-06"
+        "value": "2022-07-06",
+        "isPath": false
       },
       {
         "name": "AnimalTypeID",
-        "value": "1"
+        "value": "1",
+        "isPath": false
       }
     ],
     "auth": {
       "type": "bearer",
       "bearer": "{{access_token}}"
-    }
+    },
+    "tests": []
   },
   {
     "_id": "bfee6c65-02b9-451d-be8b-513edabe1d74",
@@ -32059,5 +32170,23 @@
     },
     "tests": [],
     "docs": "รายงาน 13 การตรวจท้อง\n\nส่ง day มาด้วยนะจ๊ะ"
+  },
+  {
+    "_id": "63c7a085-1695-4383-b546-fefca6ed5b0b",
+    "colId": "3b79f32b-fd98-4eeb-aa7c-db5336782ca8",
+    "containerId": "ae556d32-2db0-4192-b6cf-6b9821a5ca70",
+    "name": "report99",
+    "url": "{{url}}/report/report99",
+    "method": "GET",
+    "sortNum": 5840000,
+    "created": "2022-11-17T06:43:56.223Z",
+    "modified": "2022-11-17T06:54:27.340Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
   }
 ]

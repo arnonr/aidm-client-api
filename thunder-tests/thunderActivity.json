@@ -106,7 +106,7 @@
     "method": "POST",
     "sortNum": 0,
     "created": "2022-09-23T05:59:55.099Z",
-    "modified": "2022-09-27T05:11:37.005Z",
+    "modified": "2022-11-17T06:51:07.874Z",
     "headers": [],
     "params": [],
     "body": {
@@ -535,7 +535,7 @@
     "method": "GET",
     "sortNum": 0,
     "created": "2022-09-25T11:00:22.319Z",
-    "modified": "2022-09-25T11:00:22.854Z",
+    "modified": "2022-11-17T12:34:34.932Z",
     "headers": [],
     "params": [
       {
@@ -1701,7 +1701,7 @@
     "method": "GET",
     "sortNum": 0,
     "created": "2022-09-26T14:22:35.807Z",
-    "modified": "2022-09-26T14:58:54.199Z",
+    "modified": "2022-09-28T09:22:04.601Z",
     "headers": [],
     "params": [
       {
@@ -2242,7 +2242,7 @@
     "method": "GET",
     "sortNum": 0,
     "created": "2022-09-27T11:45:30.697Z",
-    "modified": "2022-09-27T12:19:29.480Z",
+    "modified": "2022-11-17T06:51:22.008Z",
     "headers": [],
     "params": [
       {
@@ -2609,6 +2609,151 @@
       {
         "name": "day",
         "value": "100",
+        "isPath": false
+      }
+    ],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "86a82813-5a0e-4f15-bbfb-1936f7d4c2fa",
+    "colId": "history",
+    "containerId": "",
+    "name": "{{url}}/report/report99",
+    "url": "{{url}}/report/report99",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-11-17T06:44:45.858Z",
+    "modified": "2022-11-17T07:32:09.789Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "93b9cda5-5aa5-4e69-b2e5-03a525488c88",
+    "colId": "history",
+    "containerId": "",
+    "name": "{{url}}/report/report4?OrganizationZoneID&ProvinceID&AmphurID&TumbolID&AIZoneID&OrganizationID&FarmID&AnimalTypeID=[1,2]",
+    "url": "{{url}}/report/report4?OrganizationZoneID&ProvinceID&AmphurID&TumbolID&AIZoneID&OrganizationID&FarmID&AnimalTypeID=[1,2]",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-11-17T06:45:40.098Z",
+    "modified": "2022-11-17T06:45:41.750Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "OrganizationZoneID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "ProvinceID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AmphurID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "TumbolID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AIZoneID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "OrganizationID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "FarmID",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "AnimalTypeID",
+        "value": "[1,2]",
+        "isPath": false
+      }
+    ],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "a6e3efaa-e7c6-4c7f-b600-efa37861923b",
+    "colId": "history",
+    "containerId": "",
+    "name": "{{url}}/animal/generate-number?FarmID=24&BirthDate=2022-07-06&AnimalTypeID=1",
+    "url": "{{url}}/animal/generate-number?FarmID=24&BirthDate=2022-07-06&AnimalTypeID=1",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-11-17T10:49:54.646Z",
+    "modified": "2022-11-17T10:49:55.295Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "FarmID",
+        "value": "24",
+        "isPath": false
+      },
+      {
+        "name": "BirthDate",
+        "value": "2022-07-06",
+        "isPath": false
+      },
+      {
+        "name": "AnimalTypeID",
+        "value": "1",
+        "isPath": false
+      }
+    ],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "cdb83576-1359-40e8-b9e1-28ed5823bb30",
+    "colId": "history",
+    "containerId": "",
+    "name": "{{url}}/animal/generate-number?FarmID=1&BirthDate=2022-07-06&AnimalTypeID=1",
+    "url": "{{url}}/animal/generate-number?FarmID=1&BirthDate=2022-07-06&AnimalTypeID=1",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-11-17T10:50:02.913Z",
+    "modified": "2022-11-17T11:05:40.243Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "FarmID",
+        "value": "1",
+        "isPath": false
+      },
+      {
+        "name": "BirthDate",
+        "value": "2022-07-06",
+        "isPath": false
+      },
+      {
+        "name": "AnimalTypeID",
+        "value": "1",
         "isPath": false
       }
     ],
